@@ -18,7 +18,7 @@ function objToSql(ob) {
             arr.push(key + "=" + ob[key]);
         }
     }
-
+ 
     return arr.toString();
 }
 
